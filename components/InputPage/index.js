@@ -47,7 +47,13 @@ function InputPage() {
 
       <div>
         <h1 className={styles.title}>104 Job Category Fetcher</h1>
-        <h2 className={styles.subtitle}>一鍵獲取104公司職務類別資訊。</h2>
+        <h2 className={styles.subtitle}>
+          *前往 beta 版網站:{' '}
+          <a href="https://104-beta.vercel.app/">
+            https://104-beta.vercel.app/
+          </a>
+        </h2>
+        {/* <h2 className={styles.subtitle}>一鍵獲取104公司職務類別資訊。</h2> */}
       </div>
 
       <div className={styles.inputContainer}>
